@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1536px;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.bg-color-main{
+    background-color: $bg-main;
+}
