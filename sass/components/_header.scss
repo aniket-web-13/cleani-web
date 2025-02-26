@@ -1,0 +1,41 @@
+.header-bg {
+  background-image: url(/assets/png/hrader-bg-Img-123.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 960px;
+  border-radius: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.head-pad {
+  padding: 0 4.5rem;
+}
+.head-in-count {
+  width: 808px;
+  padding: 2.625rem 5.25rem;
+  background-color: #cde3d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: $border-radius;
+  z-index: 10;
+}
+.spary {
+  width: 42px;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+span {
+  font-style: italic;
+  font-weight: 100;
+}

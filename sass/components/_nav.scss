@@ -5,13 +5,14 @@
 }
 
 .nav-bar ul {
-  width: 40%;
+  padding: 0 1.4vw;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-between;
   li {
     font-size: 1.325rem;
-    padding: 0 1rem;
+    padding: 0 2.125rem;
     text-transform: uppercase;
     list-style: none;
     a{
@@ -22,8 +23,19 @@
 }
 
 .nav-logo {
-  width: 14%;
+  padding-left: 2rem;
   img {
-    width: 100%;
+    width: 208px;
   }
+}
+
+.nav-list{
+  display: flex;
+  align-self: center;
+}
+
+.ham{
+  display: none;
+  width: 30px;
+  height: 30px;
 }

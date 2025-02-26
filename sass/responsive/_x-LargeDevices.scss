@@ -1,1 +1,17 @@
-@media (min-width: 1200px) {}
+@media (max-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+  .nav-bar {
+    padding: 2rem 0;
+    ul li {
+      font-size: 0.875rem;
+      padding: 0 1.5rem;
+    }
+  }
+  .nav-logo {
+    img {
+      width: 130px;
+    }
+  }
+}
